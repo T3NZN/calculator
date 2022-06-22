@@ -20,11 +20,11 @@ body {
 	display: grid;
 	justify-content: center;
 	align-content: center;
-	min-height: 700px;
-	max-width: 500px;
-	border-radius: 7px;
+	min-height: 720px;
+	min-width: 460px;
+	border-radius: 5px;
 	box-shadow: 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
-	grid-template-columns: repeat(4, 100px);
+	grid-template-columns: repeat(4, 110px);
 	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 	background-color: rgb(25, 25, 26);
 }
